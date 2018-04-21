@@ -1,4 +1,29 @@
-- Room
+# Room
+
+- [参考文档](https://www.jianshu.com/p/ef7cbf7c12b1)
+- 依赖
+
+    ```
+    // model build.gradle
+
+    // Room dependencies
+    implementation "android.arch.persistence.room:runtime:1.0.0"
+    annotationProcessor "android.arch.persistence.room:compiler:1.0.0"
+
+    defaultConfig {
+        ...
+
+        // Room Schema
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = ["room.schemaLocation":
+                                         "$projectDir/schemas".toString()]
+            }
+        }
+    }
+    ```
+
+- demo
 
     ```
     @Entity(tableName = "User")
@@ -59,3 +84,7 @@
     }
 
     ```
+
+# GreenDao
+
+- [Github](https://github.com/greenrobot/greenDAO)
