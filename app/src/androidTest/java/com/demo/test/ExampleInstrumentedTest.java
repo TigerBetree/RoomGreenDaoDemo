@@ -1,4 +1,4 @@
-package com.demo.roomgreendao;
+package com.demo.test;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

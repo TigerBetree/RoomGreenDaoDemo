@@ -1,4 +1,4 @@
-package com.demo.roomgreendao;
+package com.demo.room;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -15,10 +15,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.demo.roomgreendao.databinding.ActivityRoomBinding;
-import com.demo.roomgreendao.databinding.ItemUserBinding;
-import com.demo.roomgreendao.room.RoomDB;
-import com.demo.roomgreendao.room.entity.User;
+import com.demo.R;
+import com.demo.databinding.ActivityRoomBinding;
+import com.demo.databinding.ItemUserBinding;
+import com.demo.room.RoomDB;
+import com.demo.room.entity.User;
 
 import java.util.ArrayList;
 import java.util.List;

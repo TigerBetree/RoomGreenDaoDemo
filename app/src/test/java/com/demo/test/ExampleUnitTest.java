@@ -1,4 +1,4 @@
-package com.demo.roomgreendao;
+package com.demo.test;
 
 import org.junit.Test;
 

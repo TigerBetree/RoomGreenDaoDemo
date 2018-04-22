@@ -1,6 +1,8 @@
-package com.demo.roomgreendao;
+package com.demo;
 
 import android.app.Application;
+
+import com.demo.greendao.GreenDaoHelper;
 
 public class MyApp extends Application {
 
@@ -10,6 +12,7 @@ public class MyApp extends Application {
     public void onCreate() {
         super.onCreate();
         mInstance = this;
+        GreenDaoHelper.initGreenDao(this);
     }
 
     public static MyApp getInstance() {

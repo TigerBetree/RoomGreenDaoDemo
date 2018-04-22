@@ -1,12 +1,12 @@
-package com.demo.roomgreendao.room;
+package com.demo.room;
 
 import android.arch.persistence.room.Database;
 import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
 
-import com.demo.roomgreendao.MyApp;
-import com.demo.roomgreendao.room.dao.UserDao;
-import com.demo.roomgreendao.room.entity.User;
+import com.demo.MyApp;
+import com.demo.room.dao.UserDao;
+import com.demo.room.entity.User;
 
 @Database(version = 1, entities = {User.class})
 public abstract class AppDataBase extends RoomDatabase {

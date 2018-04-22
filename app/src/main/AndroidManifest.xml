@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.demo.roomgreendao">
+    package="com.demo">
 
     <application
         android:name=".MyApp"
@@ -18,9 +18,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".RoomActivity" />
+        <activity android:name=".room.RoomActivity" />
 
-        <activity android:name=".GreenDaoActivity" />
+        <activity android:name=".greendao.GreenDaoActivity" />
     </application>
 
 </manifest>

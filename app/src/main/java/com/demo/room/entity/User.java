@@ -1,4 +1,4 @@
-package com.demo.roomgreendao.room.entity;
+package com.demo.room.entity;
 
 import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;

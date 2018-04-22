@@ -4,32 +4,33 @@
 
     <data>
         <import type="android.view.View"/>
+
         <variable
-            name="user"
-            type="com.demo.room.entity.User" />
+            name="person"
+            type="com.demo.greendao.model.Person" />
 
         <variable
             name="clickCallback"
-            type="com.demo.room.OnUserItemClickListener" />
+            type="com.demo.greendao.OnPersonItemClickListener" />
     </data>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="@{() -> clickCallback.onItemClicked(user)}"
-        android:onLongClick="@{view -> clickCallback.onItemLongClicked(view, user)}"
+        android:onClick="@{() -> clickCallback.onItemClicked(person)}"
+        android:onLongClick="@{view -> clickCallback.onItemLongClicked(view, person)}"
         android:orientation="vertical"
         android:padding="5dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@{@string/userName(user.name)}" />
+            android:text="@{@string/userName(person.name)}" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@{@string/userAge(user.age)}" />
+            android:text="@{@string/userAge(person.age)}" />
     </LinearLayout>
 
 </layout>

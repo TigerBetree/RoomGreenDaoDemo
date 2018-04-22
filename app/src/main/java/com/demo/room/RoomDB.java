@@ -1,4 +1,4 @@
-package com.demo.roomgreendao.room;
+package com.demo.room;
 
 public class RoomDB {
 

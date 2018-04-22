@@ -1,8 +1,8 @@
-package com.demo.roomgreendao;
+package com.demo.room;
 
 import android.view.View;
 
-import com.demo.roomgreendao.room.entity.User;
+import com.demo.room.entity.User;
 
 public interface OnUserItemClickListener {
 
